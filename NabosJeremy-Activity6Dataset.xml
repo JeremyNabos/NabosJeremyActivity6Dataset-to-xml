@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE opendata.cern.ch [
+	<!ELEMENT opendata.cern.ch (Search, Explore, Focus-On, Help, About)>
+	<!ELEMENT Search (Sort-by, Display, Filter-by-type)>
+	<!ELEMENT Sort-by (Best-match, TitleA-Z, Recent, desc, asc)>
+	<!ELEMENT Display (detailed, condensed, twenty-results, fifty-results, onehundred-results, twohundred-results, fivehundred-results)>
+	<!ELEMENT Filter-by-type (Dataset, Documentation, Environment, Software, Supplementaries)>
+	<!ELEMENT Explore (datasets, software, environments, documentation)>
+	<!ELEMENT Focus-On (ATLAS, ALICE, CMS, LHCb, OPERA, PHENIX, Data-Science)>
+	<!ELEMENT Search (#PCDATA)>
+	<!ELEMENT Explore (#PCDATA)>
+	<!ELEMENT Focus-On (#PCDATA)>
+	<!ELEMENT Help (#PCDATA)>
+	<!ELEMENT About (#PCDATA)>
+	<!ELEMENT Sort-by (#PCDATA)>
+	<!ELEMENT Display (#PCDATA)>
+	<!ELEMENT Filter-by-type (#PCDATA)>
+	<!ELEMENT Best-match (#PCDATA)>
+	<!ELEMENT TitleA-Z (#PCDATA)>
+	<!ELEMENT Recent (#PCDATA)>
+	<!ELEMENT desc (#PCDATA)>
+	<!ELEMENT asc (#PCDATA)>
+	<!ELEMENT detailed (#PCDATA)>
+	<!ELEMENT condensed (#PCDATA)>
+	<!ELEMENT twenty-results (#PCDATA)>
+	<!ELEMENT fifty-results (#PCDATA)>
+	<!ELEMENT onehundred-results (#PCDATA)>
+	<!ELEMENT twohundred-results (#PCDATA)>
+	<!ELEMENT fivehundred-results (#PCDATA)>
+	<!ELEMENT Dataset (#PCDATA)>
+	<!ELEMENT Documentation (#PCDATA)>
+	<!ELEMENT Environment (#PCDATA)>
+	<!ELEMENT Software (#PCDATA)>
+	<!ELEMENT Supplementaries (#PCDATA)>
+	<!ELEMENT datasets (#PCDATA)>
+	<!ELEMENT software (#PCDATA)>
+	<!ELEMENT environments (#PCDATA)>
+	<!ELEMENT documentation (#PCDATA)>
+	<!ELEMENT ATLAS (#PCDATA)>
+	<!ELEMENT ALICE (#PCDATA)>
+	<!ELEMENT CMS (#PCDATA)>
+	<!ELEMENT LHCb (#PCDATA)>
+	<!ELEMENT OPERA (#PCDATA)>
+	<!ELEMENT PHENIX (#PCDATA)>
+	<!ELEMENT Data-Science (#PCDATA)>
+	<!ELEMENT Search-results (#PCDATA)>
+	<!ELEMENT Dataset (#PCDATA)>
+	<!ELEMENT Software (#PCDATA)>
+	<!ELEMENT Environments (#PCDATA)>
+	<!ELEMENT Documentation (#PCDATA)>
+	<!ELEMENT Help (#PCDATA)>
+	<!ELEMENT About (#PCDATA)>
+
+]>
+
+
+<opendata.cern.ch>
+	<Search>
+		<Sort-by>
+			<Best-match>Insert sorted search results here that best match the typed keyword</Best-match>                  
+			<TitleA-Z> Insert search results sorted by alphabetical order</TitleA-Z>
+			<Recent>Insert search result here sorted by recent order</Recent>
+			<desc>Insert search results here sorted by descending order</desc>
+			<asc>Insert search results here sorted by ascending order</asc>	
+		</Sort-by>
+		<Display>
+			<detailed>Display the detailed order of the data</detailed>
+			<condensed>Display the detailed order of the data</condensed>     <twenty-results>Display twenty search results</twenty-results>	
+			<fifty-results>Display fifty search results</fifty-results>
+			<onehundred-results>Display one hundred search results</onehundred-results>
+			<twohundred-results>Display two hundred search results</twohundred-results>
+			<fivehundred-results>Display five hundred search results</fivehundred-results>							
+		</Display>
+		<Filter-by-type>
+			<Dataset>Collision, Derived, Simulated</Dataset>
+			<Documentation>About, Activities, Authors, Guide, Help, Policy, Report</Documentation>
+			<Environment>Condition, VM, Validation</Environment>
+			<Software>Analysis, Framework, Tool, Validation, Workflow</Software>
+			<Supplementaries>Configuration, Configuration HLT, Configuration LHE, Configuration RECO, Configuration SIM, Luminosity, Trigger</Supplementaries>
+		</Filter-by-type>
+		<Search-results>Insert search results here based on the typed keyword</Search-results>
+	</Search>
+	<Explore>
+		<datasets>
+			<Dataset>Insert results here from dataset filter</Dataset>
+		</datasets>
+		<software>
+			<Software>Insert results here from software filter</Software>
+		</software>
+		<environments>
+			<Environments>Insert results here from environments filter</Environments>
+		</environments>
+		<documentation>
+			<Documentation>Insert results here from documentation filter</Documentation>
+		</documentation>
+	</Explore>
+	<Focus-On>
+		<ATLAS>Insert results here from ATLAS filter</ATLAS>
+		<ALICE>Insert results here from ALICE filter</ALICE>
+		<CMS>Insert results here from CMS filter</CMS>
+		<LHCb>Insert results here from LHCb filter</LHCb>
+		<OPERA>Insert results here from OPERA filter</OPERA>
+		<PHENIX>Insert results here from PHENIX filter</PHENIX>
+		<Data-Science>Insert results here from Data Science filter</Data-Science>
+	</Focus-On>
+	<Help>Log-in, Sign-up, Search, Menu, Categories, Latest, Top, Datasets</Help>
+	<About>CERN Open Data, ALICE, ATLAS, CMS, LHCb, OPERA, Glossary</About>
+</opendata.cern.ch>
